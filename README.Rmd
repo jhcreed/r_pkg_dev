@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  # fig.path = "figures/",
+  out.width = "100%"
+)
+
+
+library(emo)
+```
+
+
+# Building an R package
+
+Jordan Creed
+
+July meeting of the Biodata Club
+
+`r emo::ji("tv")` [View Slides](https://XXX.netlify.app/#1)
+
+`r emo::ji("calendar")` July 17, 2020
+
+`r emo::ji("round_pushpin")` Moffitt Cancer Center, Tampa, FL
+
+`r emo::ji("star")` We will discuss modern R package development. 
+

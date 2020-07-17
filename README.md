@@ -5,7 +5,7 @@ Jordan Creed
 
 July meeting of the Biodata Club
 
-📺 [View Slides](https://XXX.netlify.app/#1)
+📺 [View Slides](https://rpkgdev.netlify.app/#1)
 
 📆 July 17, 2020
 

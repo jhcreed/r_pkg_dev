@@ -321,6 +321,25 @@ usethis::use_vignette("example-vignette")
 
 ```
 
+---
+
+## Data
+
+Data can be included with your package and should be stored as `.RData` files 
+in the `data/` folder. 
+
+
+```r
+x &lt;- c(1,5,7,3,4)
+usethis::use_data(x)
+```
+
+Within `usethis::use_data()`, there is an `internal=TRUE` argument that is for 
+pre-computed data that is utilized by the package. Data stored this way will be 
+located in `R/sysdata.rda`
+
+🔥 .accent-blue[Data does not need to be exported but it should be documented]
+
 &lt;style type="text/css"&gt;
 .talk-logo {
   width: 980px;
